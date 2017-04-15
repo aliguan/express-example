@@ -1,4 +1,18 @@
 body {
-  background-color: indigo;
-  color: white;
+  background-color: white;
+  color: black;
+}
+
+nav {
+    width: 100%;
+}
+li {
+    list-style: none;
+    display: inline;
+    vertical-align: middle;
+}
+
+ul {
+    width: 90%;
+    margin: auto;
 }

@@ -1,7 +1,7 @@
 {
   "name": "express-example",
   "version": "1.0.0",
-  "description": "",
+  "description": "Homework ========",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,5 +11,18 @@
   "dependencies": {
     "ejs": "^2.5.6",
     "express": "^4.15.2"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aliguan/express-example.git"
+  },
+  "keywords": [
+    "Express",
+    "git"
+  ],
+  "bugs": {
+    "url": "https://github.com/aliguan/express-example/issues"
+  },
+  "homepage": "https://github.com/aliguan/express-example#readme"
 }

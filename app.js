@@ -3,7 +3,7 @@ const express = require('express');
 
 const app = express();
 
-
+app.set('views', __dirname + '/views');
   // Tell Express that we want to use views
   // AND that the engine we are using is ejs
   //                                      |
@@ -49,6 +49,11 @@ app.get('/about', (req, res, next) => {
     // views/about.ejs
     // (magically knows to look inside views/)
 });
+
+app.get('/movies', (req, res, next) => {
+  res.render('movies.ejs');
+});
+
 
 
   // http://localhost:3000
